@@ -5,4 +5,3 @@ environ.Env.read_env('../.env')
 
 
 API_KEY = env('NP_API_KEY')
-print(API_KEY)

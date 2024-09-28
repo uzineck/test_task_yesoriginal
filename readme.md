@@ -12,7 +12,7 @@ To get started with this project, follow the steps below:
    
 2. Create poetry environment:
     ```bash
-
+      poetry use env Path/to/your/python12/executable
     ```
    
 3. Install poetry dependencies:
@@ -20,4 +20,6 @@ To get started with this project, follow the steps below:
     poetry install
     ```
 
-4. Run main.py
+4. Create .env from .env.example
+
+5. Run main.py
