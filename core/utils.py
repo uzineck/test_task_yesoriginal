@@ -23,7 +23,7 @@ class Utils:
     @staticmethod
     @timeit
     def write_to_file_json(file_to_write, name_of_file: str):
-        with open(f'{name_of_file}.json', 'w', encoding="UTF-8") as outfile:
+        with open(f'../{name_of_file}.json', 'w', encoding="UTF-8") as outfile:
             outfile.write(json.dumps(file_to_write, indent=4, ensure_ascii=False))
 
     @staticmethod
